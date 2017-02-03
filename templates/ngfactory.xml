@@ -1,0 +1,21 @@
+<snippet>
+    <prefix>ngfactory</prefix>
+    <displayName>Angular Factory</displayName>
+    <description>AngularJs Factory</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").factory("${Factory}", function ${Factory} (${Dependencies}) {
+    "use strict";
+
+    /**
+     * ${Factory} constructor
+     */
+    var ${Factory} = function ${Factory} () {
+        $0
+    };
+
+    return ${Factory};
+});
+        ]]>
+    </body>
+</snippet>

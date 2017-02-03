@@ -1,0 +1,21 @@
+<snippet>
+    <prefix>ngcontroller</prefix>
+    <displayName>Angular Controller</displayName>
+    <description>AngularJs Controller</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").controller("${Controller}Ctrl", function ${Controller}Ctrl (${Dependencies}) {
+    "use strict";
+
+    /**
+     * Initialization of the controller
+     */
+    this.$onInit = function () {
+        $0
+    };
+
+    this.$onInit();
+});
+        ]]>
+    </body>
+</snippet>

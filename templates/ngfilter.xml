@@ -1,0 +1,16 @@
+<snippet>
+    <prefix>ngfilter</prefix>
+    <displayName>Angular Filter</displayName>
+    <description>AngularJs Filter</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").filter("${Filter}", function ${Filter} () {
+    "use strict";
+
+    return function ${Filter} (/*input, optional1, optional2*/) {
+        $0
+    };
+});
+        ]]>
+    </body>
+</snippet>

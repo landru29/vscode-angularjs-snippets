@@ -1,0 +1,50 @@
+{
+  "name": "angularjs-code-snippets",
+  "displayName": "AngularJs Snippets",
+  "description": "AngularJs Snippets",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "name": "Cyrille Meichel",
+      "url": "http://www.noopy.fr",
+      "email": "cyrille.meichel@gmail.com"
+    }
+  ],
+  "publisher": "landru29",
+  "icon": "icon_128x.png",
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node .; node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landru29/vscode-angularjs-snippets.git"
+  },
+  "engines": {
+    "vscode": "^0.10.6"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "Angular",
+    "visual studio code",
+    "snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "fs-path": "0.0.22",
+    "js-beautify": "^1.6.2",
+    "lodash": "^4.5.0",
+    "typescript": "^1.8.7",
+    "vscode": "^0.11.4",
+    "xml2json": "^0.9.0"
+  }
+}

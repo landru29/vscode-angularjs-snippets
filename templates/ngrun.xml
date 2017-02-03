@@ -1,0 +1,14 @@
+<snippet>
+    <prefix>ngrun</prefix>
+    <displayName>Angular Run</displayName>
+    <description>AngularJs Run</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").run(function ${Run} (${Dependencies}) {
+    "use strict";
+
+        $0
+});
+        ]]>
+    </body>
+</snippet>

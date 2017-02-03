@@ -1,0 +1,23 @@
+<snippet>
+    <prefix>ngdirective</prefix>
+    <displayName>Angular Directive</displayName>
+    <description>AngularJs Directive</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").directive("${directive}", function ${directive} (${Dependencies}) {
+    "use strict";
+    return {
+            restrict: "${AE}",
+            bindToController: true,
+            controllerAs: "${Ctrl}",
+            templateUrl: "${templateUrl}",
+            link: function (/*scope, element, attrs, controller*/) {
+            },
+            controller: function ${directive}Controller () {
+                $0
+            },
+        };
+});
+        ]]>
+    </body>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+    <prefix>ngcomponent</prefix>
+    <displayName>Angular Component</displayName>
+    <description>AngularJs Component</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").component("${component}", {
+    bindings: {
+    },
+    templateUrl: "${templateUrl}",
+    controller: function ${component}Ctrl (${Dependencies}) {
+        "use strict";
+
+        /**
+        * Initialization of the component
+        */
+        this.$onInit = function () {
+            $0
+        };
+    }
+});
+        ]]>
+    </body>
+</snippet>

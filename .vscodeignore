@@ -1,0 +1,14 @@
+# Webstorm IDE
+.idea
+
+# Mac Files
+.DS_Store
+*/.DS_Store
+*/**/.DS_Store
+
+# Main Files
+node_modules/
+templates/
+index.js
+.gitignore
+.vscode

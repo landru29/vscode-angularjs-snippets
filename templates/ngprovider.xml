@@ -1,0 +1,21 @@
+<snippet>
+    <prefix>ngprovider</prefix>
+    <displayName>Angular Provider</displayName>
+    <description>AngularJs Provider</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").provider("${Provider}", function ${Provider} (${Dependencies}) {
+    "use strict";
+
+    this.\$get = ${Provider}Fn (${Dependencies2}) {
+
+        return {
+            ${fn}: function ${fn} () {
+                $0
+            }
+        }
+    };
+});
+        ]]>
+    </body>
+</snippet>

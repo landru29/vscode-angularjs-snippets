@@ -1,0 +1,22 @@
+<snippet>
+    <prefix>ngservice</prefix>
+    <displayName>Angular Service</displayName>
+    <description>AngularJs Service</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").service("${Service}", function ${Service} (${Dependencies}) {
+    "use strict";
+
+    var ${Service} = function ${Service} () {
+        // Initialization here
+    };
+
+    ${Service}.prototype.${fn} = function ${fn} () {
+        $0
+    };
+
+    return new ${Service}();
+});
+        ]]>
+    </body>
+</snippet>

@@ -1,0 +1,194 @@
+{
+	"Angular Component": {
+		"prefix": "ngcomponent",
+		"description": "AngularJs Component",
+		"body": [
+			"angular.module(\"${Module}\").component(\"${component}\", {",
+			"    bindings: {",
+			"    },",
+			"    templateUrl: \"${templateUrl}\",",
+			"    controller: function ${component}Ctrl (${Dependencies}) {",
+			"        \"use strict\";",
+			"",
+			"        /**",
+			"        * Initialization of the component",
+			"        */",
+			"        this.$onInit = function () {",
+			"            $0",
+			"        };",
+			"    }",
+			"});"
+		]
+	},
+	"Angular Config": {
+		"prefix": "ngconfig",
+		"description": "AngularJs Config",
+		"body": [
+			"angular.module(\"${Module}\").config(function ${Config}Config (${Dependencies}) {",
+			"    \"use strict\";",
+			"",
+			"    $0",
+			"});"
+		]
+	},
+	"Angular Constant": {
+		"prefix": "ngconstant",
+		"description": "AngularJs Constant",
+		"body": [
+			"angular.module(\"${Module}\").constant(${CONSTANT}, {",
+			"    $0",
+			"});"
+		]
+	},
+	"Angular Controller": {
+		"prefix": "ngcontroller",
+		"description": "AngularJs Controller",
+		"body": [
+			"angular.module(\"${Module}\").controller(\"${Controller}Ctrl\", function ${Controller}Ctrl (${Dependencies}) {",
+			"    \"use strict\";",
+			"",
+			"    /**",
+			"     * Initialization of the controller",
+			"     */",
+			"    this.$onInit = function () {",
+			"        $0",
+			"    };",
+			"",
+			"    this.$onInit();",
+			"});"
+		]
+	},
+	"Angular Directive": {
+		"prefix": "ngdirective",
+		"description": "AngularJs Directive",
+		"body": [
+			"angular.module(\"${Module}\").directive(\"${directive}\", function ${directive} (${Dependencies}) {",
+			"    \"use strict\";",
+			"    return {",
+			"            restrict: \"${AE}\",",
+			"            bindToController: true,",
+			"            controllerAs: \"${Ctrl}\",",
+			"            templateUrl: \"${templateUrl}\",",
+			"            link: function (/*scope, element, attrs, controller*/) {",
+			"            },",
+			"            controller: function ${directive}Controller () {",
+			"                $0",
+			"            },",
+			"        };",
+			"});"
+		]
+	},
+	"Angular Factory": {
+		"prefix": "ngfactory",
+		"description": "AngularJs Factory",
+		"body": [
+			"angular.module(\"${Module}\").factory(\"${Factory}\", function ${Factory} (${Dependencies}) {",
+			"    \"use strict\";",
+			"",
+			"    /**",
+			"     * ${Factory} constructor",
+			"     */",
+			"    var ${Factory} = function ${Factory} () {",
+			"        $0",
+			"    };",
+			"",
+			"    return ${Factory};",
+			"});"
+		]
+	},
+	"Angular Filter": {
+		"prefix": "ngfilter",
+		"description": "AngularJs Filter",
+		"body": [
+			"angular.module(\"${Module}\").filter(\"${Filter}\", function ${Filter} () {",
+			"    \"use strict\";",
+			"",
+			"    return function ${Filter} (/*input, optional1, optional2*/) {",
+			"        $0",
+			"    };",
+			"});"
+		]
+	},
+	"Angular Module": {
+		"prefix": "ngmodule",
+		"description": "AngularJs Module",
+		"body": [
+			"angular.module(\"${Module}\",",
+			"    [",
+			"        $0",
+			"    ]",
+			");"
+		]
+	},
+	"Angular Provider": {
+		"prefix": "ngprovider",
+		"description": "AngularJs Provider",
+		"body": [
+			"angular.module(\"${Module}\").provider(\"${Provider}\", function ${Provider} (${Dependencies}) {",
+			"    \"use strict\";",
+			"",
+			"    this.\\$get = ${Provider}Fn (${Dependencies2}) {",
+			"",
+			"        return {",
+			"            ${fn}: function ${fn} () {",
+			"                $0",
+			"            }",
+			"        }",
+			"    };",
+			"});"
+		]
+	},
+	"Angular Run": {
+		"prefix": "ngrun",
+		"description": "AngularJs Run",
+		"body": [
+			"angular.module(\"${Module}\").run(function ${Run} (${Dependencies}) {",
+			"    \"use strict\";",
+			"",
+			"        $0",
+			"});"
+		]
+	},
+	"Angular Service": {
+		"prefix": "ngservice",
+		"description": "AngularJs Service",
+		"body": [
+			"angular.module(\"${Module}\").service(\"${Service}\", function ${Service} (${Dependencies}) {",
+			"    \"use strict\";",
+			"",
+			"    var ${Service} = function ${Service} () {",
+			"        // Initialization here",
+			"    };",
+			"",
+			"    ${Service}.prototype.${fn} = function ${fn} () {",
+			"        $0",
+			"    };",
+			"",
+			"    return new ${Service}();",
+			"});"
+		]
+	},
+	"Angular State": {
+		"prefix": "ngstate",
+		"description": "AngularJs State",
+		"body": [
+			"angular.module(\"${Module}\").config(function (\\$stateProvider) {",
+			"    \"use strict\";",
+			"    ",
+			"    \\$stateProvider",
+			"        .state(\"${state}\", {",
+			"            url: \"\",",
+			"            views: {",
+			"                \"${container}\": {",
+			"                    templateUrl: \"${templateUrl}\",",
+			"                    controller: \"${Controller}\",",
+			"                    controllerAs: \"${ControllerAs}\"",
+			"                }",
+			"            },",
+			"            translations: []",
+			"            ",
+			"        });",
+			"});"
+		]
+	}
+}

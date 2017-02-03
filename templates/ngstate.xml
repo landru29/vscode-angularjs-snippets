@@ -1,0 +1,26 @@
+<snippet>
+    <prefix>ngstate</prefix>
+    <displayName>Angular State</displayName>
+    <description>AngularJs State</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").config(function (\$stateProvider) {
+    "use strict";
+    
+    \$stateProvider
+        .state("${state}", {
+            url: "",
+            views: {
+                "${container}": {
+                    templateUrl: "${templateUrl}",
+                    controller: "${Controller}",
+                    controllerAs: "${ControllerAs}"
+                }
+            },
+            translations: []
+            
+        });
+});
+        ]]>
+    </body>
+</snippet>
