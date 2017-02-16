@@ -8,10 +8,27 @@ angular.module("${Module}").factory("${Factory}", function ${Factory} (${Depende
     "use strict";
 
     /**
-     * ${Factory} constructor
+     * @ngdoc object
+     * @name ${Module}.object:${Factory}
+     * @description
+     * <p>${Description}</p>
+     * @param {object} opts options
+     * <ul>
+     *     <li><strong>foo</strong> <em>[optional]</em> this is foo</li>
+     * </ul>
      */
     var ${Factory} = function ${Factory} () {
         $0
+    };
+
+    /**
+     * @ngdoc function
+     * @methodOf ${Module}.object:${Factory}
+     * @name ${fn}
+     * @description ${fn} description
+     * @param {String} data ${fn} data
+     */
+    ${Factory}.prototype.${fn} = function ${fn} (data) {
     };
 
     return ${Factory};

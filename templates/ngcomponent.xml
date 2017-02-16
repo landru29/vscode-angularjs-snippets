@@ -4,8 +4,31 @@
     <description>AngularJs Component</description>
     <body>
         <![CDATA[
+/**
+ * @ngdoc directive
+ * @name ${Module}.directive:${component}
+ * @restrict E
+ *
+ * @description
+ * <p>${Description}</p>
+ * @example
+   <example module="ngView">
+   <file name="index.html">
+        <div ng-controller="mainCtrl">
+            <${component}>
+            </${component}>
+        </div>
+   </file>
+   <file name="script.js">
+        angular.module("${Module}").controller("mainCtrl", function(\$scope) {
+        });
+   </file>
+   </example>
+ * @param {String} ngWhat description
+ */
 angular.module("${Module}").component("${component}", {
     bindings: {
+        ngWhat: "=?"
     },
     templateUrl: "${templateUrl}",
     controller: function ${component}Ctrl (${Dependencies}) {
@@ -14,7 +37,7 @@ angular.module("${Module}").component("${component}", {
         /**
         * Initialization of the component
         */
-        this.$onInit = function () {
+        this.\$onInit = function () {
             $0
         };
     }

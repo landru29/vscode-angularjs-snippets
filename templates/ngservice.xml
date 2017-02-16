@@ -4,6 +4,12 @@
     <description>AngularJs Service</description>
     <body>
         <![CDATA[
+/**
+ * @ngdoc service
+ * @name ${Module}.service:${Service}
+ * @description
+ * <p>${Description}</p>
+ */
 angular.module("${Module}").service("${Service}", function ${Service} (${Dependencies}) {
     "use strict";
 
@@ -11,6 +17,12 @@ angular.module("${Module}").service("${Service}", function ${Service} (${Depende
         // Initialization here
     };
 
+    /**
+     * @ngdoc function
+     * @methodOf ${Module}.service:${Service}
+     * @name ${fn}
+     * @description ${fn} description
+     */
     ${Service}.prototype.${fn} = function ${fn} () {
         $0
     };

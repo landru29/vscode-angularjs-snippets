@@ -4,9 +4,21 @@
     <description>AngularJs Provider</description>
     <body>
         <![CDATA[
+/**
+ * @ngdoc service
+ * @name ${Module}.service:${Provider}Provider
+ * @description
+ * <p>${Description}</p>
+ */
 angular.module("${Module}").provider("${Provider}", function ${Provider} (${Dependencies}) {
     "use strict";
 
+   /**
+    * @ngdoc service
+    * @name ${Module}.service:${Provider}
+    * @description
+    * <p>${Description}</p>
+    */
     this.\$get = ${Provider}Fn (${Dependencies2}) {
 
         return {

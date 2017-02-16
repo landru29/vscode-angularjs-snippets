@@ -4,7 +4,16 @@
     <description>AngularJs Constant</description>
     <body>
         <![CDATA[
-angular.module("${Module}").constant(${CONSTANT}, {
+/**
+ * @ngdoc object
+ * @name ${Module}.object:${CONSTANT}
+ * @description
+ *   <p>constant...</p>
+ *   <ul>
+ *       <li><strong>item</strong> description</li>
+ *   </ul>
+ */
+angular.module("${Module}").constant("${CONSTANT}", {
     $0
 });
         ]]>

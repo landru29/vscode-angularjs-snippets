@@ -4,6 +4,28 @@
     <description>AngularJs Directive</description>
     <body>
         <![CDATA[
+/**
+ * @ngdoc directive
+ * @name ${Module}.directive:${directive}
+ * @restrict E
+ *
+ * @description
+ * <p>${Description}</p>
+ * @example
+   <example module="ngView">
+   <file name="index.html">
+        <div ng-controller="mainCtrl">
+            <${directive}>
+            </${directive}>
+        </div>
+   </file>
+   <file name="script.js">
+        angular.module("${Module}").controller("mainCtrl", function(scope) {
+        });
+   </file>
+   </example>
+ * @param {String} ngWhat description
+ */
 angular.module("${Module}").directive("${directive}", function ${directive} (${Dependencies}) {
     "use strict";
     return {
