@@ -4,6 +4,14 @@
     <description>AngularJs Filter</description>
     <body>
         <![CDATA[
+/**
+* @ngdoc filter
+* @name ${Module}.filter:${Filter}
+* @description
+* <p>${Description}</p>
+* @param {string} input Description
+* @return {string} Description
+*/
 angular.module("${Module}").filter("${Filter}", function ${Filter} () {
     "use strict";
 
