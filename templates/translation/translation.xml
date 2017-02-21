@@ -1,0 +1,11 @@
+<snippet>
+    <prefix>translate</prefix>
+    <prefix>translation</prefix>
+    <displayName>Angular Translation Entry</displayName>
+    <description>AngularJs Translation Entry</description>
+    <body>
+        <![CDATA[
+    <translation id="${translation_key}">${text}</translation>
+        ]]>
+    </body>
+</snippet>

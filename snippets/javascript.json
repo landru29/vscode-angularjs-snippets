@@ -1,5 +1,5 @@
 {
-	"Angular Component": {
+	"javascript angularjs-code-snippets ngcomponent": {
 		"prefix": "ngcomponent",
 		"description": "AngularJs Component",
 		"body": [
@@ -43,7 +43,7 @@
 			"});"
 		]
 	},
-	"Angular Config": {
+	"javascript angularjs-code-snippets ngconfig": {
 		"prefix": "ngconfig",
 		"description": "AngularJs Config",
 		"body": [
@@ -54,7 +54,7 @@
 			"});"
 		]
 	},
-	"Angular Constant": {
+	"javascript angularjs-code-snippets ngconstant": {
 		"prefix": "ngconstant",
 		"description": "AngularJs Constant",
 		"body": [
@@ -72,7 +72,7 @@
 			"});"
 		]
 	},
-	"Angular Controller": {
+	"javascript angularjs-code-snippets ngcontroller": {
 		"prefix": "ngcontroller",
 		"description": "AngularJs Controller",
 		"body": [
@@ -82,15 +82,14 @@
 			"    /**",
 			"     * Initialization of the controller",
 			"     */",
-			"    this.$onInit = function () {",
+			"    this.\\$onInit = function () {",
 			"        $0",
 			"    };",
 			"",
-			"    this.$onInit();",
 			"});"
 		]
 	},
-	"Angular Directive": {
+	"javascript angularjs-code-snippets ngdirective": {
 		"prefix": "ngdirective",
 		"description": "AngularJs Directive",
 		"body": [
@@ -132,7 +131,7 @@
 			"});"
 		]
 	},
-	"Angular Factory": {
+	"javascript angularjs-code-snippets ngfactory": {
 		"prefix": "ngfactory",
 		"description": "AngularJs Factory",
 		"body": [
@@ -167,7 +166,7 @@
 			"});"
 		]
 	},
-	"Angular Filter": {
+	"javascript angularjs-code-snippets ngfilter": {
 		"prefix": "ngfilter",
 		"description": "AngularJs Filter",
 		"body": [
@@ -188,7 +187,7 @@
 			"});"
 		]
 	},
-	"Angular Module": {
+	"javascript angularjs-code-snippets ngmodule": {
 		"prefix": "ngmodule",
 		"description": "AngularJs Module",
 		"body": [
@@ -199,7 +198,7 @@
 			");"
 		]
 	},
-	"Angular Provider": {
+	"javascript angularjs-code-snippets ngprovider": {
 		"prefix": "ngprovider",
 		"description": "AngularJs Provider",
 		"body": [
@@ -229,7 +228,7 @@
 			"});"
 		]
 	},
-	"Angular Run": {
+	"javascript angularjs-code-snippets ngrun": {
 		"prefix": "ngrun",
 		"description": "AngularJs Run",
 		"body": [
@@ -240,7 +239,7 @@
 			"});"
 		]
 	},
-	"Angular Service": {
+	"javascript angularjs-code-snippets ngservice": {
 		"prefix": "ngservice",
 		"description": "AngularJs Service",
 		"body": [
@@ -271,7 +270,7 @@
 			"});"
 		]
 	},
-	"Angular State": {
+	"javascript angularjs-code-snippets ngstate": {
 		"prefix": "ngstate",
 		"description": "AngularJs State",
 		"body": [

@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngrun</prefix>
-    <displayName>Angular Run</displayName>
     <description>AngularJs Run</description>
     <body>
         <![CDATA[

@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngstate</prefix>
-    <displayName>Angular State</displayName>
     <description>AngularJs State</description>
     <body>
         <![CDATA[

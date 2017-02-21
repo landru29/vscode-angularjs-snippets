@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngservice</prefix>
-    <displayName>Angular Service</displayName>
     <description>AngularJs Service</description>
     <body>
         <![CDATA[

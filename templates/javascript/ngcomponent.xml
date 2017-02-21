@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngcomponent</prefix>
-    <displayName>Angular Component</displayName>
     <description>AngularJs Component</description>
     <body>
         <![CDATA[

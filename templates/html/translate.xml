@@ -1,0 +1,11 @@
+<snippet>
+    <prefix>translate</prefix>
+    <prefix>data-translate</prefix>
+    <displayName>Angular Translation</displayName>
+    <description>AngularJs Translation</description>
+    <body>
+        <![CDATA[
+data-translate="${key}"
+        ]]>
+    </body>
+</snippet>

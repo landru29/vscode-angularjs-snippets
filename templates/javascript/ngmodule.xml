@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngmodule</prefix>
-    <displayName>Angular Module</displayName>
     <description>AngularJs Module</description>
     <body>
         <![CDATA[

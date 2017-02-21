@@ -1,0 +1,27 @@
+{
+	"translation angularjs-code-snippets translate": {
+		"prefix": "translate",
+		"displayName": "Angular Translation Entry",
+		"description": "AngularJs Translation Entry",
+		"body": [
+			"<translation id=\"${translation_key}\">${text}</translation>"
+		]
+	},
+	"translation angularjs-code-snippets translation": {
+		"prefix": "translation",
+		"displayName": "Angular Translation Entry",
+		"description": "AngularJs Translation Entry",
+		"body": [
+			"<translation id=\"${translation_key}\">${text}</translation>"
+		]
+	},
+	"translation angularjs-code-snippets translations": {
+		"prefix": "translations",
+		"displayName": "Angular Translation group",
+		"description": "AngularJs Translation group",
+		"body": [
+			"<translations>",
+			"    </translations>"
+		]
+	}
+}

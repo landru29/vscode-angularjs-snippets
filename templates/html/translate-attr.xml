@@ -1,0 +1,11 @@
+<snippet>
+    <prefix>translate-attr</prefix>
+    <prefix>data-translate-attr</prefix>
+    <displayName>Angular Translation Attributes</displayName>
+    <description>AngularJs Translation Attributes</description>
+    <body>
+        <![CDATA[
+data-translate-attr="{${attribute}: '${translation_key}'}"
+        ]]>
+    </body>
+</snippet>

@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngcontroller</prefix>
-    <displayName>Angular Controller</displayName>
     <description>AngularJs Controller</description>
     <body>
         <![CDATA[
@@ -10,11 +9,10 @@ angular.module("${Module}").controller("${Controller}Ctrl", function ${Controlle
     /**
      * Initialization of the controller
      */
-    this.$onInit = function () {
+    this.\$onInit = function () {
         $0
     };
 
-    this.$onInit();
 });
         ]]>
     </body>

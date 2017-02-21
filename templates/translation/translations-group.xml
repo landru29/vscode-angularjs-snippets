@@ -1,0 +1,12 @@
+<snippet>
+    <prefix>translations</prefix>
+    <prefix>translations</prefix>
+    <displayName>Angular Translation group</displayName>
+    <description>AngularJs Translation group</description>
+    <body>
+        <![CDATA[
+    <translations>
+    </translations>
+        ]]>
+    </body>
+</snippet>

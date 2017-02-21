@@ -1,0 +1,50 @@
+{
+	"html angularjs-code-snippets translate-attr": {
+		"prefix": "translate-attr",
+		"displayName": "Angular Translation Attributes",
+		"description": "AngularJs Translation Attributes",
+		"body": [
+			"data-translate-attr=\"{${attribute}: '${translation_key}'}\""
+		]
+	},
+	"html angularjs-code-snippets data-translate-attr": {
+		"prefix": "data-translate-attr",
+		"displayName": "Angular Translation Attributes",
+		"description": "AngularJs Translation Attributes",
+		"body": [
+			"data-translate-attr=\"{${attribute}: '${translation_key}'}\""
+		]
+	},
+	"html angularjs-code-snippets translate-values": {
+		"prefix": "translate-values",
+		"displayName": "Angular Translation Values",
+		"description": "AngularJs Translation Values",
+		"body": [
+			"data-translate-attr=\"{${key}: '${value}'}\""
+		]
+	},
+	"html angularjs-code-snippets data-translate-values": {
+		"prefix": "data-translate-values",
+		"displayName": "Angular Translation Values",
+		"description": "AngularJs Translation Values",
+		"body": [
+			"data-translate-attr=\"{${key}: '${value}'}\""
+		]
+	},
+	"html angularjs-code-snippets translate": {
+		"prefix": "translate",
+		"displayName": "Angular Translation",
+		"description": "AngularJs Translation",
+		"body": [
+			"data-translate=\"${key}\""
+		]
+	},
+	"html angularjs-code-snippets data-translate": {
+		"prefix": "data-translate",
+		"displayName": "Angular Translation",
+		"description": "AngularJs Translation",
+		"body": [
+			"data-translate=\"${key}\""
+		]
+	}
+}

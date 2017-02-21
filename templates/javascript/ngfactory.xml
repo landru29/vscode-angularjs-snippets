@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngfactory</prefix>
-    <displayName>Angular Factory</displayName>
     <description>AngularJs Factory</description>
     <body>
         <![CDATA[

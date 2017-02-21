@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngconfig</prefix>
-    <displayName>Angular Config</displayName>
     <description>AngularJs Config</description>
     <body>
         <![CDATA[

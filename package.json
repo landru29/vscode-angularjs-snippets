@@ -32,10 +32,32 @@
     "snippets"
   ],
   "contributes": {
+    "languages": [
+			{
+				"id": "angular-translation",
+        "extensions": [
+          ".xml"
+        ],
+				"filenames": [
+					"^Messages_[a-z]{2}_[A-Z]{2}"
+				],
+				"aliases": [
+					"Translation"
+				]
+			}
+		],
     "snippets": [
       {
         "language": "javascript",
         "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "xml",
+        "path": "./snippets/translation.json"
       }
     ]
   },

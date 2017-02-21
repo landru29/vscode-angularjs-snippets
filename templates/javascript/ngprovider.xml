@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngprovider</prefix>
-    <displayName>Angular Provider</displayName>
     <description>AngularJs Provider</description>
     <body>
         <![CDATA[

@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngfilter</prefix>
-    <displayName>Angular Filter</displayName>
     <description>AngularJs Filter</description>
     <body>
         <![CDATA[

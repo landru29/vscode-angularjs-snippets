@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngdirective</prefix>
-    <displayName>Angular Directive</displayName>
     <description>AngularJs Directive</description>
     <body>
         <![CDATA[

@@ -1,6 +1,5 @@
 <snippet>
     <prefix>ngconstant</prefix>
-    <displayName>Angular Constant</displayName>
     <description>AngularJs Constant</description>
     <body>
         <![CDATA[
