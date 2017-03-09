@@ -8,7 +8,7 @@ angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Fact
 
     /**
      * @ngdoc object
-     * @name ${Module}.factory:${Factory}Factory
+     * @name ${Module}.factories:${Factory}Factory
      * @description
      * <p>${Description}</p>
      * @param {object} opts options
@@ -22,7 +22,7 @@ angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Fact
 
     /**
      * @ngdoc function
-     * @methodOf ${Module}.object:${Factory}Factory
+     * @methodOf ${Module}.factories:${Factory}Factory
      * @name ${fn}
      * @description ${fn} description
      * @param {String} data ${fn} data
@@ -32,7 +32,7 @@ angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Fact
 
     /**
      * @ngdoc property
-     * @propertyOf ${Module}.object:${Factory}Factory
+     * @propertyOf ${Module}.factories:${Factory}Factory
      * @name ${prop}
      * @description ${prop} description
      */
