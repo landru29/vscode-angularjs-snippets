@@ -9,7 +9,7 @@
  * @description
  * <p>${Description}</p>
  */
-angular.module("${Module}").provider("${Provider}", function ${Provider} (${Dependencies}) {
+angular.module("${Module}").provider("${Provider}", function ${Provider} () {
     "use strict";
 
    /**
@@ -18,7 +18,7 @@ angular.module("${Module}").provider("${Provider}", function ${Provider} (${Depe
     * @description
     * <p>${Description}</p>
     */
-    this.\$get = ${Provider}Fn (${Dependencies2}) {
+    this.\$get = ${Provider}Fn ($q) {
 
         return {
             ${fn}: function ${fn} () {

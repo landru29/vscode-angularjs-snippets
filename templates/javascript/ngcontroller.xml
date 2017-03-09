@@ -3,7 +3,7 @@
     <description>AngularJs Controller</description>
     <body>
         <![CDATA[
-angular.module("${Module}").controller("${Controller}Ctrl", function ${Controller}Ctrl (${Dependencies}) {
+angular.module("${Module}").controller("${Controller}Ctrl", function ${Controller}Ctrl ($q) {
     "use strict";
 
     /**

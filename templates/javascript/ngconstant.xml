@@ -5,7 +5,7 @@
         <![CDATA[
 /**
  * @ngdoc object
- * @name ${Module}.object:${CONSTANT}
+ * @name ${Module}.constant:${CONSTANT}
  * @description
  *   <p>constant...</p>
  *   <ul>

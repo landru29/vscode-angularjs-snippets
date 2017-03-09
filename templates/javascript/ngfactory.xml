@@ -3,12 +3,12 @@
     <description>AngularJs Factory</description>
     <body>
         <![CDATA[
-angular.module("${Module}").factory("${Factory}", function ${Factory} (${Dependencies}) {
+angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Factory ($q) {
     "use strict";
 
     /**
      * @ngdoc object
-     * @name ${Module}.object:${Factory}
+     * @name ${Module}.factory:${Factory}Factory
      * @description
      * <p>${Description}</p>
      * @param {object} opts options
@@ -16,21 +16,34 @@ angular.module("${Module}").factory("${Factory}", function ${Factory} (${Depende
      *     <li><strong>foo</strong> <em>[optional]</em> this is foo</li>
      * </ul>
      */
-    var ${Factory} = function ${Factory} () {
+    var ${Factory}Factory = function ${Factory}Factory () {
         $0
     };
 
     /**
      * @ngdoc function
-     * @methodOf ${Module}.object:${Factory}
+     * @methodOf ${Module}.object:${Factory}Factory
      * @name ${fn}
      * @description ${fn} description
      * @param {String} data ${fn} data
      */
-    ${Factory}.prototype.${fn} = function ${fn} (data) {
+    ${Factory}Factory.prototype.${fn} = function ${fn} (data) {
     };
 
-    return ${Factory};
+    /**
+     * @ngdoc property
+     * @propertyOf ${Module}.object:${Factory}Factory
+     * @name ${prop}
+     * @description ${prop} description
+     */
+    Object.defineProperty(${Factory}Factory.prototype, "${prop}", {
+        get: function() {
+            return null;
+        },
+        set: angular.noop
+    });
+
+    return ${Factory}Factory;
 });
         ]]>
     </body>

@@ -1,0 +1,13 @@
+<snippet>
+    <prefix>httpRequest</prefix>
+    <description>AngularJs http Request</description>
+    <body>
+        <![CDATA[
+${method}($query, $payload).\$promise.then(function (result) {
+    return result;
+})["catch"](function (err) {
+    return $q.reject(err);
+})["finally"](function () {});
+        ]]>
+    </body>
+</snippet>

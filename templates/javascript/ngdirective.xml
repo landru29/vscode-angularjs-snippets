@@ -11,7 +11,7 @@
  * @description
  * <p>${Description}</p>
  * @example
-   <example module="ngView">
+   <example module="${Module}">
    <file name="index.html">
         <div ng-controller="mainCtrl">
             <${directive}>
@@ -19,13 +19,14 @@
         </div>
    </file>
    <file name="script.js">
-        angular.module("${Module}").controller("mainCtrl", function(scope) {
+        angular.module("${Module}", []);
+        angular.module("${Module}").controller("mainCtrl", function() {
         });
    </file>
    </example>
  * @param {String} ngWhat description
  */
-angular.module("${Module}").directive("${directive}", function ${directive} (${Dependencies}) {
+angular.module("${Module}").directive("${directive}", function ${directive} ($q) {
     "use strict";
     return {
             restrict: "${AE}",
