@@ -3,7 +3,7 @@
     <description>AngularJs Run</description>
     <body>
         <![CDATA[
-angular.module("${Module}").run(function ${Run} ($q) {
+angular.module("${Module}").run(function ${Run} (\$q) {
     "use strict";
 
         $0

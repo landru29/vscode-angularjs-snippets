@@ -26,7 +26,7 @@
    </example>
  * @param {String} ngWhat description
  */
-angular.module("${Module}").directive("${directive}", function ${directive} ($q) {
+angular.module("${Module}").directive("${directive}", function ${directive} (\$q) {
     "use strict";
     return {
             restrict: "${AE}",

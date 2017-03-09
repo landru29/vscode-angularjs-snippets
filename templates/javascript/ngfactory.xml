@@ -3,7 +3,7 @@
     <description>AngularJs Factory</description>
     <body>
         <![CDATA[
-angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Factory ($q) {
+angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Factory (\$q) {
     "use strict";
 
     /**

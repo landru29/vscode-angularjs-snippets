@@ -9,7 +9,7 @@
  * @description
  * <p>${Description}</p>
  */
-angular.module("${Module}").service("${Service}", function ${Service} ($q) {
+angular.module("${Module}").service("${Service}", function ${Service} (\$q) {
     "use strict";
 
     var ${Service} = function ${Service} () {
