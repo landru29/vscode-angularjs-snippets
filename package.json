@@ -32,20 +32,6 @@
     "snippets"
   ],
   "contributes": {
-    "languages": [
-			{
-				"id": "angular-translation",
-        "extensions": [
-          ".xml"
-        ],
-				"filenames": [
-					"**/translations/Messages_*"
-				],
-				"aliases": [
-					"Translation"
-				]
-			}
-		],
     "snippets": [
       {
         "language": "javascript",
@@ -59,7 +45,14 @@
         "language": "xml",
         "path": "./snippets/translation.json"
       }
-    ]
+    ],
+    "iconThemes": [
+          {
+              "id": "Landru",
+              "label": "Translation",
+              "path": "./icons.json"
+          }
+      ]
   },
   "devDependencies": {
     "fs-path": "0.0.22",
