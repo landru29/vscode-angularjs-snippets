@@ -8,6 +8,7 @@ angular.module("${Module}").run(function ${Run} (\$q) {
 
         $0
 });
+
         ]]>
     </body>
 </snippet>

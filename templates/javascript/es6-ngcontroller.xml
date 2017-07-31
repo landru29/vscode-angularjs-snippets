@@ -1,0 +1,23 @@
+<snippet>
+    <prefix>ngcontrollerEs6</prefix>
+    <description>AngularJs controller for es6</description>
+    <body>
+        <![CDATA[
+angular.module("${Module}").controller("${Controller}Ctrl", class ${Controller}Ctrl {
+
+    constructor (\$q) {
+        this.\$q = \$q;
+    }
+
+    /**
+     * Initialization of the controller
+     */
+    $onInit () {
+        this.\$q.when();
+    }
+
+});
+
+        ]]>
+    </body>
+</snippet>

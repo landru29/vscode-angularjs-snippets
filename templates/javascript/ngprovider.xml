@@ -27,6 +27,7 @@ angular.module("${Module}").provider("${Provider}", function ${Provider} () {
         }
     };
 });
+
         ]]>
     </body>
 </snippet>

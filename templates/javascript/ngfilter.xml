@@ -18,6 +18,7 @@ angular.module("${Module}").filter("${Filter}", function ${Filter} () {
         $0
     };
 });
+
         ]]>
     </body>
 </snippet>

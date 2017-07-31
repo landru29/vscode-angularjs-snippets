@@ -42,6 +42,7 @@ angular.module("${Module}").component("${component}", {
         };
     }
 });
+
         ]]>
     </body>
 </snippet>
