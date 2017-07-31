@@ -1,4 +1,24 @@
 {
+	"javascript angularjs-code-snippets ngcontrollerEs6": {
+		"prefix": "ngcontrollerEs6",
+		"description": "AngularJs controller for es6",
+		"body": [
+			"angular.module(\"${Module}\").controller(\"${Controller}Ctrl\", class ${Controller}Ctrl {",
+			"",
+			"    constructor (\\$q) {",
+			"        this.\\$q = \\$q;",
+			"    }",
+			"",
+			"    /**",
+			"     * Initialization of the controller",
+			"     */",
+			"    \\$onInit () {",
+			"        this.\\$q.when();",
+			"    }",
+			"",
+			"});"
+		]
+	},
 	"javascript angularjs-code-snippets httpRequest": {
 		"prefix": "httpRequest",
 		"description": "AngularJs http Request",
@@ -279,7 +299,7 @@
 			"    \"use strict\";",
 			"",
 			"    var ${Service} = function ${Service} () {",
-			"        // Initialization here",
+			"        // Do nothing",
 			"    };",
 			"",
 			"    /**",

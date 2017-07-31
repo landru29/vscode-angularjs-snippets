@@ -13,7 +13,7 @@ angular.module("${Module}").service("${Service}", function ${Service} (\$q) {
     "use strict";
 
     var ${Service} = function ${Service} () {
-        // Initialization here
+        // Do nothing
     };
 
     /**
@@ -28,6 +28,7 @@ angular.module("${Module}").service("${Service}", function ${Service} (\$q) {
 
     return new ${Service}();
 });
+
         ]]>
     </body>
 </snippet>

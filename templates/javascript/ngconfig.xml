@@ -8,6 +8,7 @@ angular.module("${Module}").config(function ${Config}Config (${Dependencies}) {
 
     $0
 });
+
         ]]>
     </body>
 </snippet>

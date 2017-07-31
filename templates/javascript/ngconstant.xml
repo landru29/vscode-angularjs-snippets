@@ -15,6 +15,7 @@
 angular.module("${Module}").constant("${CONSTANT}", {
     $0
 });
+
         ]]>
     </body>
 </snippet>

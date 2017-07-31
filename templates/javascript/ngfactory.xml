@@ -2,8 +2,7 @@
     <prefix>ngfactory</prefix>
     <description>AngularJs Factory</description>
     <body>
-        <![CDATA[
-angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Factory (\$q) {
+        <![CDATA[angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Factory (\$q) {
     "use strict";
 
     /**
@@ -45,6 +44,7 @@ angular.module("${Module}").factory("${Factory}Factory", function ${Factory}Fact
 
     return ${Factory}Factory;
 });
+
         ]]>
     </body>
 </snippet>
