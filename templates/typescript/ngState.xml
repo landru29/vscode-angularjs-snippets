@@ -1,0 +1,42 @@
+<snippet>
+    <prefix>ngStateTypescript</prefix>
+    <description>AngularJs State for Typescript</description>
+    <body>
+        <![CDATA[
+
+import { ngInjector, StateDescriptor, loadStates, Route } from "app/helpers";
+import { IModule } from 'angular';
+
+@Route
+export class ${name} implements StateDescriptor {
+
+    constructor(private angularModule: IModule) {}
+    
+    init() {
+        loadStates(this.angularModule, null);
+        this.angularModule.config(Config);
+    }
+}
+
+@ngInjector
+class Config {
+    constructor(\$stateProvider) {
+        \$stateProvider
+            .state("${state}", {
+                url: "",
+                views: {
+                    "${container}": {
+                        templateUrl: "${templateUrl}",
+                        controller: "${Controller}",
+                        controllerAs: "${ControllerAs}"
+                    }
+                },
+                translations: []
+                
+            });
+    }
+}
+
+        ]]>
+    </body>
+</snippet>

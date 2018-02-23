@@ -44,15 +44,19 @@
       {
         "language": "xml",
         "path": "./snippets/translation.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
       }
     ],
     "iconThemes": [
-          {
-              "id": "Landru",
-              "label": "Translation",
-              "path": "./icons.json"
-          }
-      ]
+      {
+        "id": "Landru",
+        "label": "Translation",
+        "path": "./icons.json"
+      }
+    ]
   },
   "devDependencies": {
     "fs-path": "0.0.22",

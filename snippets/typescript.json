@@ -1,0 +1,57 @@
+{
+	"typescript angularjs-code-snippets ngcontrollerTypescript": {
+		"prefix": "ngcontrollerTypescript",
+		"description": "AngularJs controller for typescript",
+		"body": [
+			"import { ngInjector } from 'app/helpers';",
+			"import { IController } from 'angular';",
+			"import * as _ from 'lodash';",
+			"",
+			"@ngInjector",
+			"export class ${name}Ctrl implements IController {",
+			"",
+			"    constructor (",
+			"    ) {}",
+			"",
+			"}"
+		]
+	},
+	"typescript angularjs-code-snippets ngStateTypescript": {
+		"prefix": "ngStateTypescript",
+		"description": "AngularJs State for Typescript",
+		"body": [
+			"import { ngInjector, StateDescriptor, loadStates, Route } from \"app/helpers\";",
+			"import { IModule } from 'angular';",
+			"",
+			"@Route",
+			"export class ${name} implements StateDescriptor {",
+			"",
+			"    constructor(private angularModule: IModule) {}",
+			"    ",
+			"    init() {",
+			"        loadStates(this.angularModule, null);",
+			"        this.angularModule.config(Config);",
+			"    }",
+			"}",
+			"",
+			"@ngInjector",
+			"class Config {",
+			"    constructor(\\$stateProvider) {",
+			"        \\$stateProvider",
+			"            .state(\"${state}\", {",
+			"                url: \"\",",
+			"                views: {",
+			"                    \"${container}\": {",
+			"                        templateUrl: \"${templateUrl}\",",
+			"                        controller: \"${Controller}\",",
+			"                        controllerAs: \"${ControllerAs}\"",
+			"                    }",
+			"                },",
+			"                translations: []",
+			"                ",
+			"            });",
+			"    }",
+			"}"
+		]
+	}
+}

@@ -8,6 +8,7 @@ var packageJson = require('./package.json');
 compileSnippet('./templates/javascript', './snippets/javascript.json');
 compileSnippet('./templates/html', './snippets/html.json');
 compileSnippet('./templates/translation', './snippets/translation.json');
+compileSnippet('./templates/typescript', './snippets/typescript.json');
 
 
 function compileSnippet(srcDirectory, output, prefixName) {
