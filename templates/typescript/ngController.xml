@@ -6,11 +6,12 @@
     <body>
         <![CDATA[
 import { ngInjector } from 'app/helpers';
-import { IController } from 'angular';
+import * as ng from 'angular';
 import * as _ from 'lodash';
+import * as uiRouter from 'angular-ui-router';
 
 @ngInjector
-export class ${name}Ctrl implements IController {
+export class ${name}Ctrl implements ng.IController {
 
     constructor (
     ) {}

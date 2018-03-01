@@ -5,12 +5,13 @@
         <![CDATA[
 
 import { ngInjector, StateDescriptor, loadStates, Route } from "app/helpers";
-import { IModule } from 'angular';
+import * as ng from 'angular';
+import * as uiRouter from 'angular-ui-router';
 
 @Route
 export class ${name} implements StateDescriptor {
 
-    constructor(private angularModule: IModule) {}
+    constructor(private angularModule: ng.IModule) {}
     
     init() {
         loadStates(this.angularModule, null);
@@ -20,9 +21,9 @@ export class ${name} implements StateDescriptor {
 
 @ngInjector
 class Config {
-    constructor(\$stateProvider) {
+    constructor(\$stateProvider: uiRouter.IStateProvider) {
         \$stateProvider
-            .state("${state}", {
+            .state("${state}", <uiRouter.IState>{
                 url: "",
                 views: {
                     "${container}": {
