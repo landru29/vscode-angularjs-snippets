@@ -1,4 +1,29 @@
 {
+	"typescript angularjs-code-snippets ngcomponentTypescript": {
+		"prefix": "ngcomponentTypescript",
+		"description": "AngularJs component for typescript",
+		"body": [
+			"import template from './${Name}.html';",
+			"import { Inject, ngComponent } from 'app/helpers';",
+			"import * as ng from 'angular';",
+			"import * as _ from 'lodash';",
+			"",
+			"class ${Name}Ctrl implements ng.IComponentController {",
+			"",
+			"    constructor (",
+			"    ) {}",
+			"",
+			"}",
+			"",
+			"",
+			"@ngComponent({",
+			"    selector: '${Name}',",
+			"    controller: ${Name}Ctrl,",
+			"    template,",
+			"})",
+			"export class ${Name}Component {}"
+		]
+	},
 	"typescript angularjs-code-snippets ngcontrollerTypescript": {
 		"prefix": "ngcontrollerTypescript",
 		"description": "AngularJs controller for typescript",
@@ -14,6 +39,40 @@
 			"    constructor (",
 			"    ) {}",
 			"",
+			"}"
+		]
+	},
+	"typescript angularjs-code-snippets ngdirectiveTypescript": {
+		"prefix": "ngdirectiveTypescript",
+		"description": "AngularJs directive for typescript",
+		"body": [
+			"import template from './${Name}.html';",
+			"import { Inject, ngDirective } from 'app/helpers';",
+			"import * as ng from 'angular';",
+			"import * as _ from 'lodash';",
+			"",
+			"",
+			"class ${Name}Ctrl implements ng.IController {",
+			"\tconstructor (",
+			"    ) {}",
+			"}",
+			"",
+			"@ngDirective({",
+			"    selector: '${Name}',",
+			"    restrict: 'AE',",
+			"    controller: ${Name}Ctrl,",
+			"    controllerAs: '\\$ctrl',",
+			"    template,",
+			"})",
+			"export class ${Name}Directive {",
+			"",
+			"    constructor(",
+			"    ) {",
+			"    }",
+			"",
+			"    link = (scope, element, attrs) => {",
+			"",
+			"    }",
 			"}"
 		]
 	},

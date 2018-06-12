@@ -1,0 +1,37 @@
+<snippet>
+    <prefix>ngdirectiveTypescript</prefix>
+    <description>AngularJs directive for typescript</description>
+    <body>
+        <![CDATA[
+import template from './${Name}.html';
+import { Inject, ngDirective } from 'app/helpers';
+import * as ng from 'angular';
+import * as _ from 'lodash';
+
+
+class ${Name}Ctrl implements ng.IController {
+	constructor (
+    ) {}
+}
+
+@ngDirective({
+    selector: '${Name}',
+    restrict: 'AE',
+    controller: ${Name}Ctrl,
+    controllerAs: '\$ctrl',
+    template,
+})
+export class ${Name}Directive {
+
+    constructor(
+    ) {
+    }
+
+    link = (scope, element, attrs) => {
+
+    }
+}
+
+        ]]>
+    </body>
+</snippet>

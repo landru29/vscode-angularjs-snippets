@@ -1,0 +1,28 @@
+<snippet>
+    <prefix>ngcomponentTypescript</prefix>
+    <description>AngularJs component for typescript</description>
+    <body>
+        <![CDATA[
+import template from './${Name}.html';
+import { Inject, ngComponent } from 'app/helpers';
+import * as ng from 'angular';
+import * as _ from 'lodash';
+
+class ${Name}Ctrl implements ng.IComponentController {
+
+    constructor (
+    ) {}
+
+}
+
+
+@ngComponent({
+    selector: '${Name}',
+    controller: ${Name}Ctrl,
+    template,
+})
+export class ${Name}Component {}
+
+        ]]>
+    </body>
+</snippet>
