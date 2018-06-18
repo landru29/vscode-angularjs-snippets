@@ -5,12 +5,11 @@
     <description>AngularJs controller for typescript</description>
     <body>
         <![CDATA[
-import { ngInjector } from 'app/helpers';
+import { Inject } from 'app/helpers';
 import * as ng from 'angular';
 import * as _ from 'lodash';
 import * as uiRouter from 'angular-ui-router';
 
-@ngInjector
 export class ${name}Ctrl implements ng.IController {
 
     constructor (

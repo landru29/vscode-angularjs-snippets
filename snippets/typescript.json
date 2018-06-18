@@ -28,12 +28,11 @@
 		"prefix": "ngcontrollerTypescript",
 		"description": "AngularJs controller for typescript",
 		"body": [
-			"import { ngInjector } from 'app/helpers';",
+			"import { Inject } from 'app/helpers';",
 			"import * as ng from 'angular';",
 			"import * as _ from 'lodash';",
 			"import * as uiRouter from 'angular-ui-router';",
 			"",
-			"@ngInjector",
 			"export class ${name}Ctrl implements ng.IController {",
 			"",
 			"    constructor (",
@@ -73,6 +72,38 @@
 			"    link = (scope, element, attrs) => {",
 			"",
 			"    }",
+			"}"
+		]
+	},
+	"typescript angularjs-code-snippets ngfactoryTypescript": {
+		"prefix": "ngfactoryTypescript",
+		"description": "AngularJs factory for typescript",
+		"body": [
+			"import { Inject } from 'app/helpers';",
+			"import * as ng from 'angular';",
+			"import * as _ from 'lodash';",
+			"",
+			"export class ${name}Factory {",
+			"",
+			"    constructor (",
+			"    ) {}",
+			"",
+			"}"
+		]
+	},
+	"typescript angularjs-code-snippets ngserviceTypescript": {
+		"prefix": "ngserviceTypescript",
+		"description": "AngularJs service for typescript",
+		"body": [
+			"import { Inject } from 'app/helpers';",
+			"import * as ng from 'angular';",
+			"import * as _ from 'lodash';",
+			"",
+			"export class ${name}Service {",
+			"",
+			"    constructor (",
+			"    ) {}",
+			"",
 			"}"
 		]
 	},

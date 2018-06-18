@@ -1,0 +1,22 @@
+
+
+<snippet>
+    <prefix>ngfactoryTypescript</prefix>
+    <description>AngularJs factory for typescript</description>
+    <body>
+        <![CDATA[
+import { Inject } from 'app/helpers';
+import * as ng from 'angular';
+import * as _ from 'lodash';
+
+export class ${name}Factory {
+
+    constructor (
+    ) {}
+
+}
+
+        ]]>
+    </body>
+</snippet>
+

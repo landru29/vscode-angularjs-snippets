@@ -1,0 +1,22 @@
+
+
+<snippet>
+    <prefix>ngserviceTypescript</prefix>
+    <description>AngularJs service for typescript</description>
+    <body>
+        <![CDATA[
+import { Inject } from 'app/helpers';
+import * as ng from 'angular';
+import * as _ from 'lodash';
+
+export class ${name}Service {
+
+    constructor (
+    ) {}
+
+}
+
+        ]]>
+    </body>
+</snippet>
+
