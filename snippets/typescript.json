@@ -83,10 +83,15 @@
 			"import * as ng from 'angular';",
 			"import * as _ from 'lodash';",
 			"",
-			"export class ${name}Factory {",
+			"export class ${name}FactoryInstance {",
 			"",
 			"    constructor (",
-			"    ) {}",
+			"    ) {",
+			"        class ${name}Factory {",
+			"        }",
+			"",
+			"        return ${name}Factory;",
+			"    }",
 			"",
 			"}"
 		]
