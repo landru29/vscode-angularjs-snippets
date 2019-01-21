@@ -1,0 +1,32 @@
+{
+	"typescriptreact angularjs-code-snippets tsxComponent": {
+		"prefix": "tsxComponent",
+		"description": "React component for Typescript",
+		"body": [
+			"import * as React from 'react';",
+			"import './${1}.scss';",
+			"import * as _ from 'lodash';",
+			"",
+			"interface Props {",
+			"",
+			"}",
+			"",
+			"interface State {",
+			"",
+			"}",
+			"",
+			"export class ${1/(.*)/${1:/upcase} ${1:/downcase}/} extends React.PureComponent<Props, State> {",
+			"",
+			"    constructor(props: Props, public state: State) {",
+			"        super(props, state);",
+			"",
+			"    }",
+			"",
+			"    render(): JSX.Element {",
+			"        return <div>",
+			"        </div>;",
+			"    }",
+			"}"
+		]
+	}
+}
