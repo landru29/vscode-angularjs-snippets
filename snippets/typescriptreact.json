@@ -1,6 +1,6 @@
 {
-	"typescriptreact angularjs-code-snippets tsxComponent": {
-		"prefix": "tsxComponent",
+	"typescriptreact angularjs-code-snippets component": {
+		"prefix": "component",
 		"description": "React component for Typescript",
 		"body": [
 			"import * as React from 'react';",
@@ -27,6 +27,43 @@
 			"        </div>;",
 			"    }",
 			"}"
+		]
+	},
+	"typescriptreact angularjs-code-snippets trComponent": {
+		"prefix": "trComponent",
+		"description": "React component for Typescript",
+		"body": [
+			"import * as React from 'react';",
+			"import './${1}.scss';",
+			"import * as _ from 'lodash';",
+			"import { injectIntl, InjectedIntlProps } from 'react-intl';",
+			"import { toast } from 'react-toastify';",
+			"",
+			"interface Props extends InjectedIntlProps {",
+			"",
+			"}",
+			"",
+			"interface State {",
+			"",
+			"}",
+			"",
+			"class ${1/(.*)/${1:/upcase} ${1:/downcase}/}Provider extends React.PureComponent<Props, State> {",
+			"",
+			"    constructor(props: Props, public state: State) {",
+			"        super(props, state);",
+			"",
+			"        toast.success(this.props.intl.formatMessage({",
+			"            id: 'application.success',",
+			"        }));",
+			"    }",
+			"",
+			"    render(): JSX.Element {",
+			"        return <div>",
+			"        </div>;",
+			"    }",
+			"}",
+			"",
+			"export const ${1/(.*)/${1:/upcase} ${1:/downcase}/} = injectIntl(${1/(.*)/${1:/upcase} ${1:/downcase}/}Provider);"
 		]
 	}
 }
