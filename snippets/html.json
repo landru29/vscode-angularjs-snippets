@@ -1,4 +1,23 @@
 {
+	"html angularjs-code-snippets bootstrap": {
+		"prefix": "bootstrap",
+		"displayName": "HTML bootstrap",
+		"description": "HTML bootstrap",
+		"body": [
+			"<!doctype html>",
+			"<html lang=\"fr\">",
+			"  <head>",
+			"    <meta charset=\"utf-8\">",
+			"    <title>$title</title>",
+			"    <link rel=\"stylesheet\" href=\"style.css\">",
+			"    <script src=\"script.js\"></script>",
+			"  </head>",
+			"  <body>",
+			"    $content",
+			"  </body>",
+			"</html>"
+		]
+	},
 	"html angularjs-code-snippets modal": {
 		"prefix": "modal",
 		"displayName": "Angular Bootstrap modal",
